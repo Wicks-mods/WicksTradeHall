@@ -2,7 +2,7 @@
 
 > Trade channel, as a bulletin board. Seven categories, aged-out listings, no wall-of-spam.
 
-Part of the **[Wick Suite](https://github.com/Wicksmods/WickSuite)**.
+Part of the **[Wick Suite](https://github.com/Wicks-mods/WickSuite)**.
 
 ## Pages
 
@@ -13,7 +13,7 @@ Part of the **[Wick Suite](https://github.com/Wicksmods/WickSuite)**.
 
 ## Links
 
-- [GitHub repo](https://github.com/Wicksmods/WicksTradeHall)
+- [GitHub repo](https://github.com/Wicks-mods/WicksTradeHall)
 - [CurseForge](https://www.curseforge.com/wow/addons/trade-hall)
-- [Changelog](https://github.com/Wicksmods/WicksTradeHall/blob/main/CHANGELOG.md)
-- [Report an issue](https://github.com/Wicksmods/WicksTradeHall/issues)
+- [Changelog](https://github.com/Wicks-mods/WicksTradeHall/blob/main/CHANGELOG.md)
+- [Report an issue](https://github.com/Wicks-mods/WicksTradeHall/issues)
