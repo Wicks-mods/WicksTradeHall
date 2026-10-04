@@ -1,7 +1,7 @@
 # Wick's Trade Hall
 
 The economy addon for **World of Warcraft: Forever**, built on
-[WickCore](https://github.com/Wicksmods/WickCore). Wick's Ledger folds in
+[WickCore](https://github.com/Wicks-mods/WickCore). Wick's Ledger folds in
 here.
 
 ## What it does
@@ -68,4 +68,4 @@ World of Warcraft: Forever, 1.60.x, Interface 16001. Requires WickCore.
 
 ## License
 
-MIT for code (see [LICENSE](LICENSE)). Brand chrome and the "Wick's" wordmark are trademarked, see [TRADEMARK.md](https://github.com/Wicksmods/WickSuite/blob/main/TRADEMARK.md).
+MIT for code (see [LICENSE](LICENSE)). Brand chrome and the "Wick's" wordmark are trademarked, see [TRADEMARK.md](https://github.com/Wicks-mods/WickSuite/blob/main/TRADEMARK.md).
