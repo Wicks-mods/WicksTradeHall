@@ -1,6 +1,10 @@
 # Wick's Trade Hall (Forever) - Changelog
 
-## 0.9.2 — 2026-09-24
+## Unreleased
+
+- Shows in the game's addon list with an icon and the two-tone Wick title, under a Wick's Mods heading.
+
+## 0.9.2 (2026-09-24)
 
 ### Fixed
 
@@ -36,7 +40,7 @@ One version across the suite for the Forever beta. Every addon carried a
 number of its own that said nothing about how finished it was, so they are
 aligned here and the suite goes to 1.0.0 together at launch.
 
-## 0.1.0 - 2026-09-22
+## 0.1.0 (2026-09-22)
 
 First build for World of Warcraft: Forever. The economy addon, and the
 umbrella Wick's Ledger folds into.
