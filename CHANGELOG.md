@@ -1,13 +1,19 @@
 # Wick's Trade Hall — Changelog
 
-## 1.0.5 - 2026-10-01
+## Unreleased
+
+- Fixed: once a category was full, the newest listing was dropped and the old ones stayed. The newest are kept now.
+- Chat tags use the exact Wick green, and the corner brackets are the standard size.
+- Shows in the game's addon list with an icon and the two-tone Wick title, under a Wick's Mods heading.
+
+## 1.0.5 (2026-10-01)
 
 ### Fixed
 
 - Loads on the 2.5.6 client without being marked out of date. The addon
   now lists interface 20506 alongside 20505.
 
-## 1.0.4 - 2026-04-26
+## 1.0.4 (2026-04-26)
 
 ### Title bar slim revert + close-button glyph fix
 
@@ -17,7 +23,7 @@ Also: the previous `✕` (U+2715) close glyph was rendering as a tofu/missing-gl
 
 No functional changes.
 
-## 1.0.3 - 2026-04-25
+## 1.0.3 (2026-04-25)
 
 ### Title bar harmonization
 
@@ -25,7 +31,7 @@ Header now matches the canonical Wick suite spec — 32px tall, two-tone title (
 
 No functional changes.
 
-## 1.0.2 - 2026-04-21
+## 1.0.2 (2026-04-21)
 
 ### Brand identity pass
 

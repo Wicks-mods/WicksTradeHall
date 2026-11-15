@@ -292,7 +292,7 @@ local function CreatePanel()
 
     -- Border + corner accents
     AddBorder(panel)
-    AddCornerAccents(panel, 12)
+    AddCornerAccents(panel, 10)
 
     -- Dragging
     panel:RegisterForDrag("LeftButton")

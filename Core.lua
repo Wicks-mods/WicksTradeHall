@@ -173,21 +173,26 @@ function WTH.AddListing(playerName, category, message, guid)
     }
     table.insert(WTH.listings, 1, listing)
 
-    -- Cap per-category
-    local catCount = 0
-    for i = #WTH.listings, 1, -1 do
+    -- Cap per-category. Newest listings sit at the front, so walk forward
+    -- and drop whatever comes after the first maxPerCategory of this kind.
+    local catCount, i = 0, 1
+    while i <= #WTH.listings do
         if WTH.listings[i].category == category then
             catCount = catCount + 1
             if catCount > cfg.maxPerCategory then
                 table.remove(WTH.listings, i)
+            else
+                i = i + 1
             end
+        else
+            i = i + 1
         end
     end
 
     if cfg.soundAlert then PlaySound(1210) end
     if cfg.chatAlert then
         DEFAULT_CHAT_FRAME:AddMessage(
-            "|cff4fc878[WTH]|r " .. listing.name .. ": " .. message
+            "|cff4FC778[WTH]|r " .. listing.name .. ": " .. message
         )
     end
 
@@ -234,7 +239,7 @@ eventFrame:SetScript("OnEvent", function(self, event, ...)
             if type(WicksTradeHallDB) ~= "table" then WicksTradeHallDB = {} end
             WTH.config = WicksTradeHallDB
             ApplyDefaults(WTH.config, DEFAULTS)
-            DEFAULT_CHAT_FRAME:AddMessage("|cff4fc878[WTH]|r v" .. WTH.version .. " loaded. |cffffd700/wth|r to open.")
+            DEFAULT_CHAT_FRAME:AddMessage("|cff4FC778[WTH]|r v" .. WTH.version .. " loaded. |cffffd700/wth|r to open.")
         end
     elseif event == "PLAYER_ENTERING_WORLD" then
         WTH.OnEnteringWorld()
@@ -270,14 +275,14 @@ SlashCmdList["WICKSTRADEHALL"] = function(msg)
     msg = WTH.Lower(msg):match("^%s*(.-)%s*$")
     if msg == "debug" then
         WTH._debug = not WTH._debug
-        DEFAULT_CHAT_FRAME:AddMessage("|cff4fc878[WTH]|r Debug: " .. (WTH._debug and "ON" or "OFF"))
+        DEFAULT_CHAT_FRAME:AddMessage("|cff4FC778[WTH]|r Debug: " .. (WTH._debug and "ON" or "OFF"))
     elseif msg == "options" or msg == "config" or msg == "settings" then
         if WTH.ToggleOptions then WTH.ToggleOptions() end
     elseif msg == "clear" then
         WTH.ClearAll()
-        DEFAULT_CHAT_FRAME:AddMessage("|cff4fc878[WTH]|r Listings cleared.")
+        DEFAULT_CHAT_FRAME:AddMessage("|cff4FC778[WTH]|r Listings cleared.")
     elseif msg == "version" then
-        DEFAULT_CHAT_FRAME:AddMessage("|cff4fc878[WTH]|r v" .. WTH.version)
+        DEFAULT_CHAT_FRAME:AddMessage("|cff4FC778[WTH]|r v" .. WTH.version)
     else
         if WTH.ToggleUI then WTH.ToggleUI() end
     end

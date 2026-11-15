@@ -1,9 +1,14 @@
 ## Interface: 20505, 20506
-## Title: Wick's Trade Hall
-## Notes: Trade channel scanner and bulletin board
+## Title: |cffD4C8A1Wick's|r |cff4FC778Trade Hall|r
+## Notes: Trade channel scanner and bulletin board.
 ## Author: Wick
 ## Version: 1.0.5
 ## SavedVariables: WicksTradeHallDB
+## IconTexture: Interface\Icons\INV_Scroll_03
+## Category: Wick's Mods
+## X-Website: https://wicksmods.com
+## X-License: MIT with trademark carve-out
+## X-Curse-Project-ID: 1502890
 
 Core.lua
 Categories.lua
