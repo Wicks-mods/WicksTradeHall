@@ -1,6 +1,6 @@
 # Wick's Trade Hall — Changelog
 
-## Unreleased
+## 1.0.6 (2026-11-15)
 
 - Fixed: once a category was full, the newest listing was dropped and the old ones stayed. The newest are kept now.
 - Chat tags use the exact Wick green, and the corner brackets are the standard size.
