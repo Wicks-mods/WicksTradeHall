@@ -1,5 +1,13 @@
 # Wick's Trade Hall (Forever) - Changelog
 
+## Unreleased
+
+### Fixed
+
+- CurseForge now installs WickCore along with this addon. No file said it
+  was needed, so the app installed the addon alone and it could not run.
+- The message shown when WickCore is missing says where to get it.
+
 ## 0.9.3 (2026-11-15)
 
 - Shows in the game's addon list with an icon and the two-tone Wick title, under a Wick's Mods heading.
