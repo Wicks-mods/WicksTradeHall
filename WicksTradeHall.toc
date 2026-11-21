@@ -2,7 +2,7 @@
 ## Title: |cffD4C8A1Wick's|r |cff4FC778Trade Hall|r
 ## Notes: Economy for World of Warcraft: Forever. Session earnings with gold per hour, and the trade channel as a board.
 ## Author: Wick
-## Version: 0.9.3
+## Version: 0.9.4
 ## OptionalDeps: WickCore
 ## SavedVariables: WicksTradeHallSaved
 ## IconTexture: Interface\Icons\INV_Scroll_03

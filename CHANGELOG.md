@@ -1,6 +1,6 @@
 # Wick's Trade Hall (Forever) - Changelog
 
-## Unreleased
+## 0.9.4 (2026-11-21)
 
 ### Fixed
 
